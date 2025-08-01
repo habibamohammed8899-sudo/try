@@ -28,14 +28,9 @@ export const Footer: React.FC = () => {
               </div>
               <div className="flex items-center justify-center gap-2">
                 <Phone className="w-4 h-4" />
-                <div className="flex flex-col gap-1">
-                  <a href="tel:+966111234567" className="hover:text-white transition-colors">
-                    +966 11 123 4567
-                  </a>
-                  <a href="tel:+01559181558" className="hover:text-white transition-colors">
-                    +0155 918 1558
-                  </a>
-                </div>
+                <a href="tel:+01559181558" className="hover:text-white transition-colors">
+                  +0155 918 1558
+                </a>
               </div>
               <div className="flex items-center justify-center gap-2">
                 <MapPin className="w-4 h-4" />
